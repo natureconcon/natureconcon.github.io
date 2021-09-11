@@ -1,7 +1,6 @@
-/* Master Part */
 
-.master{
-    z-index: 5;
+* {
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 /* PieChart Part */
