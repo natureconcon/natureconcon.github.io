@@ -24,8 +24,8 @@ body, html {
 
 .PBD {
     z-index: 50;
-    width: 400px;
     position: absolute;
+    max-width: 400px;
     top: 50%;
     left: 10%;
     font-size: 1.5em;

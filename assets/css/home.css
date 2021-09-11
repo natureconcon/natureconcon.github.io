@@ -15,12 +15,12 @@
 
 main {
   z-index: 6;
-  width: 400px;
-  margin: 30px auto;
+  max-width: 800px;
+  margin: 0;
 }
 
 section {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .pieID {
