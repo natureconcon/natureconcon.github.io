@@ -1,6 +1,7 @@
 
 * {
   font-family: 'Noto Sans TC', sans-serif;
+  font-weight: normal;
 }
 
 /* PieChart Part */
@@ -89,11 +90,12 @@ section {
 }
 
 .legend li {
-  width: 110px;
+  /* width: 120px; */
   height: 1.25em;
   margin-bottom: 0.7em;
   padding-left: 0.5em;
   border-left: 1.25em solid black;
+  white-space: nowrap;
 }
 
 .legend em {
@@ -101,5 +103,7 @@ section {
 }
 
 .legend span {
+  padding-left: 20px;
+  display: none;
   float: right;
 }
